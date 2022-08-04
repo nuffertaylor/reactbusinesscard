@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&display=swap');
+.mainBox{
+  background:#1c1c1c;
+  width:400px;
+  height:800px;
+  display:grid;
+  place-items:center;
+}
+
+.innerBox{
+  background:#23252c;
+  width:90%;
+  height:90%;
+  display:grid;
+  place-items:center;
+}
+
+.infoContainer{
+  background: 
+    #1A1B21;
+  width:90%;
+  height:90%;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+.avatarImg{
+  width:100%;
+}
+body{
+  color:#FFFFFF;
+  font-family: 'Albert Sans';
+}
+
+.name{
+  text-align:center;
+  font-size:30px;
+}
+
+.subtitle{
+  color:#02DAC6;
+  text-align:center;
+  font-size:15px;
+  margin-top:5px;
+}
+
+.websiteLink{
+  text-decoration:none;
+  color:#2675fc;
+}
+
+.websiteLinkContainer{
+  margin-top:5px;
+  text-align:center;
+}
+
+.linkButton{
+  height:25px;
+  padding:5px 15px 5px 15px;
+  width:100px;
+  text-align:center;
+  border-radius:10px;
+  display:grid;
+  grid-template-columns:.5fr 1fr;
+  place-items:center;
+  cursor:pointer;
+  user-select:none;
+}
+.linkButtonEmail{
+  background:white;
+  color:black;
+}
+.linkButtonLinkedIn{
+  background:#5093E2;
+}
+.linkButtonIconWrapper{
+  height:100%;
+  width:20px;
+  display:grid;
+  place-items:center;
+  margin-right:5px;
+}
+.linkButtonIcon{
+  width:20px;
+  top:5px;
+}
+.linkButtonIconEmail{
+  content:url('https://static.thenounproject.com/png/1029502-200.png');
+}
+.linkButtonIconLinkedIn{
+  content:url('https://i.imgur.com/Za5qgva.png');
+  border-radius:5px;
+}
+
+.linkButtonRow{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  place-items:center;
+  margin-top:10px;
+}
+.textSection{
+  margin:5px;
+}
+.sectionTitle{
+  font-size:20px;
+  font-weight:500;
+}
+.sectionText{
+  margin-top:3px;
+  font-size:12px;
+}
+.socialsSection{
+  margin-top:5px;
+  width:100%;
+  background:#161619;
+  height:7%;
+  display:grid;
+  place-items:center;
+}
+.socialLogo{
+  margin:5px;
+  width:35px;
+  height:35px;
+  cursor:pointer;
+}
+.githubLogo{
+  content:url('https://pnggrid.com/wp-content/uploads/2022/03/Github-Logo-White.png');
+}
