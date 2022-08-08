@@ -20,7 +20,8 @@ export default function InfoContainer(props){
             <TextSection title="About Me" text="How many people do you know that have beaten Paper Mario: The Thousand Year door six times in a row straight with no bathroom breaks? None? well now you know one." />
             <TextSection title="Interests" text="You 😘. Also your mom 🤤" />
             <div className="socialsSection">
-                 <img className="githubLogo socialLogo"/>
+                <img className="githubLogo socialLogo"/>
+                <img class="codepenLogo socialLogo"/>
             </div>
         </div>
     );
